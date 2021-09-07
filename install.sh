@@ -1,0 +1,2 @@
+#!/bin/bash
+apt update -y && apt upgrade -y && apt install sudo && apt install curl && apt install fuse && curl https://rclone.org/install.sh | sudo bash && apt install nload && apt install htop && apt install net-tools && apt install git && sudo git clone https://github.com/htpcBeginner/AtoMiC-ToolKit /opt/AtoMiC-ToolKit && sudo apt install python-pip && sudo apt install python3-pip && apt install ffmpeg
